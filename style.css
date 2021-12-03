@@ -300,7 +300,7 @@ h6{
     padding: 100px 0 70px 0;
 }
 #second-section-content h4{
-    margin: 30px 0;
+    margin: 30px 0 30px 0;
 }
 .sup-new{
     width: 45px;
@@ -883,6 +883,9 @@ footer{
     .fourth-s-right-content p{
         margin: 0 0 40px 0;
     }
+    .fourth-s-right-content{
+        width: 100%;
+    }
     html{
         font-size: 12px;
     }
@@ -1014,13 +1017,13 @@ footer{
     #bg-picture{
         width: 50%;
     }
-}
-@media (max-width: 400px){
-    html{
-        font-size: 10px;
+    #fourth-btn{
+        max-width: 100%;
     }
+}
+@media (max-width: 425px){
     .btn{
-        width: 280px;
+        width: 100%;
         height: 50px;
         background: #C5AB90;
         border: none;
@@ -1033,11 +1036,211 @@ footer{
         color: #fff;
     }
     .btn-with-text {
-        position: relative;
-        max-width: 280px;
+        max-width: 100%;
+        margin: 0;
     }
     #btn2{
-        width: 280px;
+        width: 100%;
+    }
+    .btn-with-text-fifth-s{
+        max-width: 100%;
+    }
+    #btn-fifth-s{
+        width: 100%;
+    }
+    #seventh-s-btn{
+        width: 100%;
+    }
+    #left-main-conent {
+        padding: 60px 0 60px 0;
+    }
+    #second-section-content {
+        padding: 60px 0 60px 0;
+    }
+    #third-section {
+        padding: 60px 0;
+    }
+    #fourth-section {
+        padding: 60px 0 60px 0;
+    }
+    #fifth-section {
+        padding: 60px 0;
+    }
+    #sixth-section {
+        padding: 60px 0;
+    }
+    #seventh-section {
+        padding: 60px 0 70px 0;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    #left-main-conent {
+        padding: 44px 0 60px 0;
+    }
+    h1{
+    font-family: 'Anglecia Pro Dsp', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 130%;
+    color: #35424B;
+    }
+    h2{
+        font-family: 'Anglecia Pro Dsp', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 130%;
+        color: #35424B;
+    }
+    #first-section-content p {
+    font-family: 'Cera Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #35424B;
+    }
+    .btn{
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .main-description {
+        margin: 20px 0 30px 0;
+    }
+    .btn-with-text p{
+        margin: 10px 0 0 0;
+    }
+    #second-section-content h4 {
+        margin: 20px 0 30px 0;
+    }
+    #third-section-content h2{
+        margin-bottom: 30px;
+    }
+    .sup-new {
+        width: 36px;
+        height: 19px;
+        background: #C5AB90;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 130%;
+        color: #FFFFFF;
+        position: absolute;
+    }
+    .sup-new p {
+        text-align: center;
+        width: 100%;
+        margin: 2px 0;
+    }
+    .third-s-description{
+        font-family: 'Cera Pro', sans-serif;
+        margin: 30px 0 40px 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #35424B;
+    }
+    .bx-check-double p {
+        margin-top: 12px;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .br-fourth-s{
+        display: none;
+    }
+    .list-fourth-section p {
+        margin: 0 0 0 25px;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+        max-width: 350px;
+    }
+    .list-fourth-section {
+        margin-bottom: 20px;
+    }
+    .fourth-s-right-content p {
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin: 40px 0;
+    }
+    .fifth-s-description {
+        margin: 20px 0 40px 0;
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 150%;
+        color: #35424B;
+    }
+    .sixth-description {
+        font-family: 'Cera Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin: 20px 0 40px 0;
+    }
+    .text-with-icon-sixth-s{
+        margin-bottom: 20px;
+    }
+    .text-with-icon-sixth-s-second{
+        margin-bottom: 40px;
+    }
+    .week-content {
+        max-width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 130px;
+    }
+    .week h5{
+
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .week p {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .description-seventh-s {
+        max-width: 500px;
+        margin: 20px 0 30px 0;
+    }
+    .first-footer-content {
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+    .icon-with-text-footer {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 400px){
+    html{
+        font-size: 10px;
     }
     .logo img{
         width: 70%;
@@ -1047,18 +1250,9 @@ footer{
         flex-direction: column;
         align-items: flex-start;
     }
-    #fourth-btn{
-        width: 100%;
-    }
     .picture-fifth-s-mb{
         display: block;
         width: 100%;
-    }
-    #btn-fifth-s{
-        width: 100%;
-    }
-    .btn-with-text-fifth-s{
-        max-width: 100%;
     }
     .week-content{
         max-width: 300px;
@@ -1071,9 +1265,6 @@ footer{
     #sixth-s-button{
         width: 100%;
         height: 60px;
-    }
-    #seventh-s-btn{
-        width: 100%;
     }
 }
 
